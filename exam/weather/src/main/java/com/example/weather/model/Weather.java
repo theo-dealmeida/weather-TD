@@ -2,10 +2,10 @@ package com.example.weather.model;
 
 public class Weather {
 
-    private String cityName;
-    private String zipCode;
-    private String country;
-    private String weather;
+    private final String cityName;
+    private final String zipCode;
+    private final String country;
+    private final String weather;
 
     public Weather(String cityName, String zipCode, String country, String weather) {
         super();
